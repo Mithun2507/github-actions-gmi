@@ -25,3 +25,12 @@ jobs:
        with:
         name: artifact
         path: demo.txt
+
+     - name: donwload artifacts
+       uses: actions/download-artifact@v2
+       with:
+        name: downloaded artifact
+        path: ./
+       needs:
+        - Run a script from github repo
+        - upload artifacts
