@@ -19,3 +19,4 @@ jobs:
        run: | 
          chmod 755 script.sh
          ./script.sh
+         cat demo.txt
