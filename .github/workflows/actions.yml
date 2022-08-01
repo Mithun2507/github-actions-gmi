@@ -1,0 +1,21 @@
+name: first_work
+
+
+on: 
+
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+
+    steps:
+     - uses: actions/checkout@v2
+     - name: Run a one line script
+       run: echo Hello!! Mithun
+     - name: Run multi line script
+       run : |
+        cat /etc/os-release
+        echo Mithun github actions training
+     - name: Run a script from github repo
+        run: | 
+          chmod 755 script.sh
+            ./script.sh
