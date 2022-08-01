@@ -31,6 +31,6 @@ jobs:
        with:
         name: downloaded artifact
         path: ./
-       needs:
+    needs:
         - Run a script from github repo
         - upload artifacts
