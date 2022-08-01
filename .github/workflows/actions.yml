@@ -1,7 +1,7 @@
 name: first_work
 
 
-on: 
+on: [push]
 
 jobs:
   first_job:
