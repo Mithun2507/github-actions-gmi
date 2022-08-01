@@ -18,4 +18,4 @@ jobs:
      - name: Run a script from github repo
         run: | 
           chmod 755 script.sh
-            ./script.sh
+          ./script.sh
