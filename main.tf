@@ -5,7 +5,7 @@ provider "google" {
 }
 
 data "google_compute_disk" "demo" {
-    name = "demo"
+    name = "demo-mithun"
     project = "kulbhushanmayer"
 }
 
