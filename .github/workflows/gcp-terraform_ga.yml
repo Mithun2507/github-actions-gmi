@@ -112,14 +112,14 @@ jobs:
       #     sudo apt-get update -y
       #     sudo apt-get install -y terraform
       - name: Terraform init
-        uses: Mithun2507/github-actions-terraform@v1.0
+        uses: Mithun2507/github-actions-terraform@v2.0
         with:
           args: "init"
       - name: Terraform plan
-        uses: Mithun2507/github-actions-terraform@v1.0
+        uses: Mithun2507/github-actions-terraform@v2.0
         with:
          args: "plan"  
       - name: Terraform apply
-        uses: Mithun2507/github-actions-terraform@v1.0
+        uses: Mithun2507/github-actions-terraform@v2.0
         with:
           args: "apply -auto-approve"         
